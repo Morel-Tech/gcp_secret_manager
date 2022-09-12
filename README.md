@@ -1,6 +1,6 @@
 # secret_manager
 
-[![gcp_secret_manager](https://github.com/Morel-Tech/gcp_secret_manager/actions/workflows/gcp_secret_manager.yaml/badge.svg)](https://github.com/Morel-Tech/gcp_secret_manager/actions/workflows/gcp_secret_manager.yaml)
+[![gcp_secret_manager](https://github.com/Morel-Tech/gcp_secret_manager/actions/workflows/gcp_secret_manager.yaml/badge.svg?branch=main&event=push)](https://github.com/Morel-Tech/gcp_secret_manager/actions/workflows/gcp_secret_manager.yaml)
 [![style: very good analysis][very_good_analysis_badge]][very_good_analysis_link]
 [![License: MIT][license_badge]][license_link]
 
