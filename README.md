@@ -5,6 +5,14 @@
 
 A small package to make interacting with Google Secret Manager easier.
 
+## Usage
+
+```dart
+  final secretManager = await SecretManager.defaultCredentials();
+  final secret = await secretManager.getSecret('my-secret');
+  // use secret...
+```
+
 [license_badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [license_link]: https://opensource.org/licenses/MIT
 [very_good_analysis_badge]: https://img.shields.io/badge/style-very_good_analysis-B22C89.svg
