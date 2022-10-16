@@ -1,6 +1,6 @@
 name: gcp_secret_manager
 description: A small package to make interacting with Google Secret Manager easier.
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/Morel-Tech/gcp_secret_manager
 
 environment:
