@@ -37,8 +37,9 @@ class LocalSecretManager implements SecretManager {
 
     final secretsMap = Map<String, String>.fromEntries(
       filteredLines.map((line) {
-        final parts = line.split('=');
-        return MapEntry(parts[0], parts[1]);
+        final key = line.substring(0, line.indexOf('='));
+        final value = line.substring(line.indexOf('=') + 1);
+        return MapEntry(key, value);
       }),
     );
 

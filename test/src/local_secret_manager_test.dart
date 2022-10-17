@@ -21,6 +21,10 @@ void main() {
           await secretManager.getSecret('testing_key'),
           'testing_value',
         );
+        expect(
+          await secretManager.getSecret('test_with_equals'),
+          'testing=test=',
+        );
       });
     });
 
