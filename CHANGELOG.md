@@ -1,3 +1,7 @@
+## 0.1.3
+
+Bumped `googleapis`dependency to 11.4.0
+
 ## 0.1.2
 
 Bumped `googleapis`dependency to 10.0.0
