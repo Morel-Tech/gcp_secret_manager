@@ -19,8 +19,7 @@ class SecretManager {
     Future<AutoRefreshingAuthClient> Function({
       required List<String> scopes,
       Client? baseClient,
-    })
-        clientGetter = clientViaApplicationDefaultCredentials,
+    }) clientGetter = clientViaApplicationDefaultCredentials,
   }) async {
     final client = await clientGetter(
       scopes: [
